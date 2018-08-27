@@ -2,7 +2,7 @@ package goutils
 
 import (
 	"fmt"
-	"peterSZW/goutils/logger"
+	"github.com/peterSZW/goutils/logger"
 
 	//"weixin/utils"
 	"encoding/json"

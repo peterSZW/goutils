@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"io"
 	"net/url"
-	"peterSZW/goutils/logger"
+
+	"github.com/peterSZW/goutils/logger"
 )
 
 var alipayGatewayNew = `https://mapi.alipay.com/gateway.do?`

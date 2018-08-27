@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	"peterSZW/goutils/uuid"
+	"github.com/peterSZW/goutils/uuid"
 )
 
 const host string = "http://green.cn-hangzhou.aliyuncs.com"

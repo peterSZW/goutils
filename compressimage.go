@@ -4,7 +4,8 @@ import (
 	"image"
 	"image/jpeg"
 	"os"
-	"peterSZW/goutils/logger"
+
+	"github.com/peterSZW/goutils/logger"
 
 	"github.com/nfnt/resize"
 )

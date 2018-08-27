@@ -5,7 +5,8 @@ import (
 	"io"
 	"net/http"
 	"os"
-	"peterSZW/goutils/logger"
+
+	"github.com/peterSZW/goutils/logger"
 
 	"github.com/nfnt/resize"
 )

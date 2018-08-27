@@ -1,7 +1,7 @@
 package goutils
 
 import (
-	"peterSZW/goutils/logger"
+	"github.com/peterSZW/goutils/logger"
 	//"io/ioutil"
 	"os"
 	"os/exec"

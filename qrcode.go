@@ -7,7 +7,8 @@ import (
 	_ "image/color"
 	_ "image/png"
 	"io/ioutil"
-	"peterSZW/goutils/logger"
+
+	"github.com/peterSZW/goutils/logger"
 
 	"github.com/RaymondChou/goqr/pkg"
 )

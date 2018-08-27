@@ -12,7 +12,7 @@ import (
 	"net/smtp"
 	"strings"
 	"time"
-	"peterSZW/goutils/pop3"
+	"github.com/peterSZW/goutils/pop3"
 )
 
 /*
