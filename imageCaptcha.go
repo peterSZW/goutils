@@ -1,4 +1,4 @@
-package utils //生成验证码
+package goutils //生成验证码
 
 import (
 	crand "crypto/rand"

@@ -1,4 +1,4 @@
-package utils
+package goutils
 
 import (
 	"crypto/aes"
@@ -85,18 +85,15 @@ func AesNewCBCEncrypter(text, akey string) string {
 	// include it at the beginning of the ciphertext.
 	ciphertext := make([]byte, aes.BlockSize+len(plaintext))
 	iv := ciphertext[:aes.BlockSize]
- 
 
 	if _, err := io.ReadFull(rand.Reader, iv); err != nil {
 		panic(err)
 	}
 
-//    for i:=0; i<16 ;i++ {
-//		iv[i]=key[i]
-//	}
- 
-  
- 
+	//    for i:=0; i<16 ;i++ {
+	//		iv[i]=key[i]
+	//	}
+
 	mode := cipher.NewCBCEncrypter(block, iv)
 	mode.CryptBlocks(ciphertext[aes.BlockSize:], plaintext)
 
@@ -109,15 +106,12 @@ func AesNewCBCEncrypter(text, akey string) string {
 
 }
 
- 
-func  _main() {
+func _main() {
 
- 
 	key := "1234567890123456"
 	s := "ThisThisThisThisThisThis"
-	s="Edit1"
+	s = "Edit1"
 	es := AesNewCBCEncrypter(s, key)
- 
 
 	fmt.Println(AesNewCBCDecrypter(es, key))
 

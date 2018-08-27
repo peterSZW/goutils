@@ -1,4 +1,4 @@
-package utils/pop3
+package goutils/pop3
 
 //original from github.com\reyoung\pop3
 
